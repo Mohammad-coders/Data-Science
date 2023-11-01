@@ -4,7 +4,7 @@ install.packages("readxl")
 library(readxl)
 
 #Data set call from the csv file to read all the data.
-mydata<- read_excel("E:/AIUB/9th semester/Data Science/Data Set/data_set.xlsx",sheet = 1)
+mydata<- read_excel("E:/AIUB/9th semester/Data Science/Data Set/data.xlsx",sheet = 1)
 mydata
 
 #see the column name
@@ -54,7 +54,7 @@ mydata2
 
 
 #counting number of null value in each column
-mydata<- read_excel("E:/AIUB/9th semester/Data Science/Data Set/data_set.xlsx",sheet = 1)
+mydata<- read_excel("E:/AIUB/9th semester/Data Science/Data Set/data.xlsx",sheet = 1)
 mydata
 colSums(is.na(mydata))
 
